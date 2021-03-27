@@ -1,0 +1,252 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Italic-VariableFont_wght.ttf");
+    src: url("fonts/Raleway-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: flex-end;
+    height: 70px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+}
+
+.items-menu {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.item-menu {
+    padding-bottom: 10px;
+}
+
+.link-nav {
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.link-nav:hover {
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+}
+
+.link-nav:focus {
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+}
+
+.signup-nav {
+    color: #0065FC;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.signup-nav:hover {
+    border-top: 2px #0065FC solid;
+}
+
+.signup-nav:focus {
+    border-top: 2px #0065FC solid;
+}
+
+
+/* SECTION LOCATION */
+
+.section-location {
+    width: 100%;
+}
+
+.section-location h1 {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.section-location p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.search-location {
+    display: inline-flex;
+    width: 40%;
+    justify-content: flex-start;
+    
+}
+
+.btn-location {
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 10px 15px 10px 20px;
+}
+
+.btn-location .fas:hover {
+    color: #0065FC;
+}
+
+.btn-location .fas:visited {
+    color: #0065FC;
+}
+
+.text-location {
+    border-left: none;
+    border-right: none;
+    border: 1px #F2F2F2 solid ;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.btn-search {
+    border: none;
+    background-color: #0065FC;
+    color: #ffff;
+    padding: 10px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 15px;
+    font-weight: 500; 
+}
+
+.btn-search:hover {
+    border: none;
+    color: #F2F2F2;
+}
+
+/* FILTER */
+
+.filter {
+    width: 100%;
+    display: flex;
+}
+
+.filter p {
+    font-weight: bold;
+}
+
+.item-filter {
+    display: inline-flex;
+}
+
+/* Icon alignment problem with the div */
+
+.logo-filter {
+    background-color: #DEEBFF;
+    padding: 15px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.filter-content {
+    border: 1px black solid;
+    border-left: none;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+/* INFO  */
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    padding-left: 10px;
+    text-align: center;
+}
+
+.logo-info {
+    border: 2px #F2F2F2 solid;
+    color: #0065FC;
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+/* RESULT SEARCH */
+
+.search-cards {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 10px 40px 40px 40px;
+    width: 60%;
+}
+
+.search-cards h1 {
+    font-size: 30px;
+}
+
+.search-card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #ffff;
+    width: 33%;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+.card-img {
+    width: 290px;
+    height: 180px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+}
+
+.card-content {
+    text-align: left;
+}
+
+.card-content h1 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card-stars i {
+    color: #0065FC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

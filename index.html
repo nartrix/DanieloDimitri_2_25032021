@@ -13,13 +13,19 @@
 
         <header>
             <div class="logo">
-                Reservia
+                <img src="images/logo/Reservia.svg">
             </div>
             <div class="menu">
                 <ul class="items-menu">
-                    <li class="item-menu">Hébergements</li>
-                    <li class="item-menu">Activités</li>
-                    <li class="item-menu">S'inscrire</li>
+                    <li class="item-menu">
+                        <a class="link-nav" href="#">Hébergements</a>
+                    </li>
+                    <li class="item-menu">
+                        <a class="link-nav" href="#">Activités</a>
+                    </li>
+                    <li class="item-menu">
+                        <a class="signup-nav" href="#">S'inscrire</a>
+                    </li>
                 </ul>
             </div>
         </header>
@@ -32,9 +38,13 @@
         <div class="section-location">
             <h1>Trouvez votre hébergement pour des vacances de rève</h1>
             <p>En plein centre ville ou en pleine nature</p>
-            <div class="btn-location"></div>
-            <textarea class="search-location">Marseille, France</textarea>
-            <button class="btn-search">Recherche</button>
+            <div class="search-location">
+                <a class="btn-location" href="#">
+                    <i class="fas fa-map-marker-alt"></i>
+                </a>
+                <input  class="text-location" type="text" placeholder="Marseille, France">
+                <a class="btn-search" type="submit">Rechercher</a>
+            </div>
         </div>
 
         <!-- END SECTION LOCATION -->
@@ -42,30 +52,22 @@
         <!-- FILTER -->
 
         <div class="filter">
-            <p>Flitres</p>
+            <p>Filtres</p>
             <div class="item-filter">
-                <div class="logo-filter">
-
-                </div>
-                <p>Économique</p>
+                <i class="fas fa-money-bill-wave logo-filter"></i>
+                <p class="filter-content">Économique</p>
             </div>
             <div class="item-filter">
-                <div class="logo-filter">
-
-                </div>
-                <p>Familial</p>
+                <i class="fas fa-child fa-lg logo-filter"></i>
+                <p class="filter-content">Familial</p>
             </div>
             <div class="item-filter">
-                <div class="logo-filter">
-
-                </div>
-                <p>Romantique</p>
+                <i class="fas fa-heart logo-filter"></i>
+                <p class="filter-content">Romantique</p>
             </div>
             <div class="item-filter">
-                <div class="logo-filter">
-
-                </div>
-                <p>Animaux autorisés</p>
+                <i class="fas fa-dog logo-filter"></i>
+                <p class="filter-content">Animaux autorisés</p>
             </div>
         </div>
 
@@ -74,9 +76,7 @@
         <!-- INFO -->
 
         <div class="info">
-            <div class="logo-info">
-
-            </div>
+            <i class="fas fa-info fa-xs logo-info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
 
@@ -88,79 +88,91 @@
             <h1>Hébergements à Marseille</h1>
             <div class="search-card">
                 <div class="card">
-                    <div class="card-img">
-
-                    </div>
+                    <img class="card-img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
                     <div class="card-content">
                         <h1>Auberge la Cannebière</h1>
                         <p>Nuit à partir de <span>25€</span></p>
                         <div class="card-stars">
-        
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-img">
-
-                    </div>
+                <div class="card"> 
+                    <img class="card-img" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
                     <div class="card-content">
                         <h1>Hôtel du port</h1>
                         <p>Nuit à partir de <span>52€</span></p>
                         <div class="card-stars">
-        
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
                 </div>
 
                 <div class="card">
-                    <div class="card-img">
-
-                    </div>
+                    <img class="card-img" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
                     <div class="card-content">
                         <h1>Hôtel les mouettes</h1>
                         <p>Nuit à partir de <span>76€</span></p>
                         <div class="card-stars">
-        
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
                 </div>
 
                 <div class="card">
-                    <div class="card-img">
-
-                    </div>
+                    <img class="card-img" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
                     <div class="card-content">
                         <h1>Hôtel de la mer</h1>
                         <p>Nuit à partir de <span>46€</span></p>
                         <div class="card-stars">
-        
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
                 </div>
 
                 <div class="card">
-                    <div class="card-img">
-
-                    </div>
+                    <img class="card-img" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
                     <div class="card-content">
                         <h1>Auberge Le Panier</h1>
                         <p>Nuit à partir de <span>23€</span></p>
                         <div class="card-stars">
-        
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
                 </div>
 
                 <div class="card">
-                    <div class="card-img">
-
-                    </div>
+                    <img class="card-img" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
                     <div class="card-content">
                         <h1>Hôtel chez Amina</h1>
                         <p>Nuit à partir de <span>25€</span></p>
                         <div class="card-stars">
-        
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
                     </div>
                 </div>
@@ -278,5 +290,6 @@
 
         <!-- END ACTIVITY CARDS -->
 
+        <script src="https://kit.fontawesome.com/73d2e5fe29.js" crossorigin="anonymous"></script>
     </body>
 </html>
