@@ -509,3 +509,148 @@ footer {
     text-decoration: none;
     color: #000000;
 }
+
+
+/* VERSION MOBILE */ 
+
+@media screen and (max-width: 980px) {
+
+    /* HEADER */
+    .header-container {
+        padding: 0;
+
+    }
+    .items-menu {
+        display: flex;
+    }
+
+    .main {
+        padding: 0;
+    }
+
+    /* SECTION LOCATION */ 
+
+    .section-location h1 {
+        font-size: 38px;
+    }
+
+    .section-location p {
+        font-size: 20px;
+    }
+
+    .search-location {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .btn-location {
+        padding: 25px 25px 20px 25px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+       }
+
+    .text-location {
+        width: 100%;
+    }
+
+    .btn-search {
+
+    }
+
+    /* FILTER */
+
+    /* SECTION CARDS */
+    
+    .section-cards {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* POPULAR CARDS */
+
+    .popular-cards {
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    .popular-cards h1 {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .popular-cards a {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .popular-card {
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    /* SEARCH CARDS */
+
+    .search-cards {
+        width: 100%;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    .search-card {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* ACTIVITY */
+
+    .activity-cards {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .activity-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-card {
+        width: 90%;
+    }
+
+    .activity-card img {
+        width: 100%;
+    }
+
+    .simple {
+        height: 250px;
+    }
+
+    .simple .activity-img {
+        height: 200px;
+    }
+
+    .double-01 {
+        height: 250px;
+    }
+
+    .double-01 .activity-img {
+        height: 200px;
+    }
+
+    /* FOOTER */
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
