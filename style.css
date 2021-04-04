@@ -533,13 +533,13 @@ footer {
 
 /* VERSION MOBILE */ 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 600px) {
 
     /* HEADER */
     .header-container {
         display: flex;
         flex-wrap: wrap;
-        height: 200px;
+        height: auto;
         padding: 0;
     }
 
@@ -554,20 +554,20 @@ footer {
     }
 
     .signup-nav {
-        margin-left: 80px;
+        margin-left: 20px;
         display: flex;
         justify-content: flex-end;
     }
 
     .signup-nav a {
-        padding-top: 49px;
+        padding-top: 60px;
         padding-left: 10px;
         padding-right: 10px;
+        font-size: 20px;
     }
 
     .menu {
         width: 100%;
-        
     }
 
     .items-menu {
@@ -627,11 +627,7 @@ footer {
        }
 
     .text-location {
-        width: 100%;
-    }
-
-    .btn-search {
-
+        width: 90%;
     }
 
     /* FILTER */
@@ -658,8 +654,6 @@ footer {
     .info i {
         margin-left: 15px;
     }
-
-
 
     /* SECTION CARDS */
     
@@ -708,6 +702,7 @@ footer {
 
     .popular-stars {
         padding-left: 15px;
+        margin: 0;
     }
 
     /* SEARCH CARDS */
@@ -798,6 +793,10 @@ footer {
         height: 200px;
     }
 
+    .card-double {
+        width: 100%;
+    }
+
     .activity-content h1 {
         margin-left: 10px;
     }
@@ -807,5 +806,209 @@ footer {
     .footer-content {
         display: flex;
         flex-direction: column;
+    }
+}
+
+
+/* VERSION TABLET */
+
+@media screen and (max-width: 1024px) {
+
+    /* SECTION LOCATION */ 
+
+    .section-location h1 {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+
+    .section-location p {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    .search-location {
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .btn-location {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+       }
+
+    .text-location {
+        width: 90%;
+    }
+
+    /* FILTER */
+
+    .filter {
+        display: block;
+    }
+    .filter p {
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    .items-filter {
+        margin-left: 15px;
+    }
+
+    .item-filter {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    /* INFO */
+
+    .info i {
+        margin-left: 15px;
+    }
+
+    /* SECTION CARDS */
+    
+    .section-cards {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* POPULAR CARDS */
+
+    .popular-cards {
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .popular-cards h1 {
+        margin-top: 20px;
+        margin-left: 20px;
+
+    }
+
+    .popular-cards a {
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+
+    .popular-card {
+        width: 90%;
+        height: 150px;
+        margin-left: 20px;
+    }
+
+    .popular-card h1 {
+        padding: 0;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .popular-card p {
+        padding-left: 15px;
+    }
+
+    .popular-stars {
+        padding-left: 15px;
+        margin: 0;
+    }
+
+    /* SEARCH CARDS */
+
+    .search-cards {
+        width: 100%;
+        border-radius: 0;
+        background: transparent;
+        padding: 0;
+    }
+
+    .search-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0;
+        padding: 5px;
+        margin-left: 15px; 
+    }
+
+    .card-img {
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .card-content h1 {
+        margin-left: 10px;
+    }
+
+    .card-content p {
+        margin-left: 10px;
+    }
+
+    .card-stars {
+        margin-left: 10px;
+    }
+
+    .more-cards {
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    /* ACTIVITY */
+
+    .activity-cards {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .activity-cards h1 {
+        margin-left: 15px;
+    }
+
+    .activity-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-card {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .activity-card img {
+        width: 100%;
+    }
+
+    .simple {
+        height: 250px;
+    }
+
+    .simple .activity-img {
+        height: 200px;
+    }
+
+    .double-01 {
+        height: 250px;
+    }
+
+    .double-01 .activity-img {
+        height: 200px;
+    }
+
+    .card-double {
+        width: 100%;
+    }
+
+    .activity-content h1 {
+        margin-left: 10px;
     }
 }
